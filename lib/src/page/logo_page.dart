@@ -14,7 +14,7 @@ class _LogoPageState extends State<LogoPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // backgroundColor: Theme.of(context).primaryColor,
+      backgroundColor: TColorTheme.lightBackgroundColorAuth,
       body: Container(
         padding: const EdgeInsets.all(20),
         child: Stack(

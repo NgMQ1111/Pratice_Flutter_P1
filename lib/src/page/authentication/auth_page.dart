@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_1/src/page/authentication/auth/login/login_page.dart';
 import 'package:project_1/src/page/authentication/auth/signup/signup_page.dart';
-import 'package:project_1/src/utils/back_button.dart';
 import 'package:project_1/src/utils/themes/widget_themes/text_style.dart';
 import 'package:project_1/src/utils/logos/illustration.dart';
 
@@ -21,11 +20,6 @@ class _AuthPageState extends State<AuthPage> {
     return Scaffold(
       body: Stack(
         children: [
-          Positioned(
-            top: 20,
-            left: 20,
-            child: backButton(context),
-          ),
           Column(
             children: [
               Illustration(context, currentHeightPage),

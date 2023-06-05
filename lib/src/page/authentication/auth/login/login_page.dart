@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:project_1/src/page/authentication/auth/login/forgot_password.dart';
 import 'package:project_1/src/page/home/home_page.dart';
+import 'package:project_1/src/page/manager.dart';
 import 'package:project_1/src/utils/themes/widget_themes/color_theme.dart';
 import 'package:project_1/src/utils/themes/widget_themes/text_style.dart';
 
@@ -28,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     void handleLogin() async {
       await Navigator.of(context).pushAndRemoveUntil(
-          MaterialPageRoute(builder: (context) => const HomePage()),
+          MaterialPageRoute(builder: (context) => const Manager()),
           (route) => false);
     }
 

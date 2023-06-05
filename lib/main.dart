@@ -23,7 +23,6 @@ class _MainAppState extends State<MainApp> {
       darkTheme: ThemeApp.darkTheme,
       themeMode: ThemeMode.light,
       home: const LogoPage(),
-      // home: OTPPage(),
     );
   }
 }

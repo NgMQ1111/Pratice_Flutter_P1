@@ -100,7 +100,7 @@ Widget otpBox(context, currentHeight) {
 
 Widget optCode(context) {
   return Container(
-    color: TColorTheme.lightBackgroundColor,
+    color: TColorTheme.lightBackgroundColorAuth,
     height: 68,
     width: 55,
     child: TextFormField(
